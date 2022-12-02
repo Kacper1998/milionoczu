@@ -1278,7 +1278,13 @@ input[type="submit"]:hover {
     .form-text-3 {
         margin-left: 5%;
     }
+    .form {
+        height: 1600px;
+        display: flex;
+        flex-flow: wrap;
+    }
 }
+
 
 /* Responsive: */
 
