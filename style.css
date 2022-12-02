@@ -994,9 +994,13 @@ hr.line-2 {
   }
 
   .form-text-3 {
-    padding-left: 10em;
+    padding-left: 23vw;
   }
 }
+.form-text-3 {
+    display: flex;
+}
+
 
 .btn-2-form-email {
   font-family: "adobe-garamond-pro";
@@ -1029,7 +1033,6 @@ hr.line-2 {
   font-weight: 700;
   font-stretch: normal;
   margin-top: 220px;
-  margin-left: -73%;
 }
 
 .form-text-4 {
@@ -1270,6 +1273,11 @@ input[type="submit"]:hover {
   .form-text-3 {
     margin-top: 2vh;
   }
+}
+@media only screen and (max-width:800px) {
+    .form-text-3 {
+        margin-left: 5%;
+    }
 }
 
 /* Responsive: */
