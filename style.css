@@ -86,7 +86,7 @@ body {
 }
 
 .top-left-logo {
-  margin-left: 80px;
+  margin-left: 4%;
   position: absolute;
   color: black;
   font-size: 19px;
@@ -153,6 +153,11 @@ body {
   margin-left: 15em;
   background-color: white;
   border: 1px solid #d4cfc1;
+}
+@media screen and (max-width:1550px) {
+  .btn-1 {
+    width: 13%;
+  }
 }
 
 .btn-1 p {
@@ -222,7 +227,7 @@ body {
   color: #0b1036;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1240px) {
   .rc_nav a,
   .rc_nav button {
     display: none;
