@@ -262,9 +262,10 @@ body {
 
   .rc_nav.responsive button {
     text-align: center;
-    margin-left: 7.5em;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 25px;
-    width: 70%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 1500px) {
