@@ -154,7 +154,7 @@ body {
   background-color: white;
   border: 1px solid #d4cfc1;
 }
-@media screen and (max-width:1550px) {
+@media screen and (max-width: 1550px) {
   .btn-1 {
     width: 13%;
   }
@@ -1004,9 +1004,8 @@ hr.line-2 {
   }
 }
 .form-text-3 {
-    display: flex;
+  display: flex;
 }
-
 
 .btn-2-form-email {
   font-family: "adobe-garamond-pro";
@@ -1267,7 +1266,7 @@ input[type="submit"]:hover {
   font-stretch: normal;
   letter-spacing: 0.72px;
 }
-@media only screen and (max-width:1500px) {
+@media only screen and (max-width: 1500px) {
   .col-complementary-2-form {
     max-width: 750px;
     margin: 0 auto;
@@ -1280,17 +1279,16 @@ input[type="submit"]:hover {
     margin-top: 2vh;
   }
 }
-@media only screen and (max-width:800px) {
-    .form-text-3 {
-        margin-left: 5%;
-    }
-    .form {
-        height: 1600px;
-        display: flex;
-        flex-flow: wrap;
-    }
+@media only screen and (max-width: 800px) {
+  .form-text-3 {
+    margin-left: 5%;
+  }
+  .form {
+    height: 1600px;
+    display: flex;
+    flex-flow: wrap;
+  }
 }
-
 
 /* Responsive: */
 
@@ -1367,4 +1365,42 @@ hr.line {
   align-items: center;
   justify-content: center;
 }
+.col-complementary-2-img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 940px) {
+  .col-three-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+  }
+.col-complementary-2-img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
 
+}
+.col-main-2-img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+}
+.col-three-f {
+  margin-top: 7%;
+}
+.col-complementary-2-f {
+  margin-top: 7%;
+}
+.col-main-2-f {
+  margin-top: 7%;
+}
+}
